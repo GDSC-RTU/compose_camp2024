@@ -1,0 +1,9 @@
+Image(
+   painter = painterResource(id = R.drawable.upload),
+   contentDescription = null,
+   modifier = Modifier
+       .height(13.dp)
+       .width(13.dp)
+       .align(Alignment.CenterVertically)
+)
+

@@ -1,0 +1,26 @@
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.style.TextAlign
+
+
+Row {
+   Image(
+       painter = painterResource(id = R.drawable.comment),
+       contentDescription = null,
+       modifier = Modifier
+           .height(13.dp)
+           .width(13.dp)
+           .align(Alignment.CenterVertically)
+   )
+   Text(
+       text = post.comment.toString(),
+       fontSize = 12.sp,
+       style = TextStyle(
+           fontWeight = FontWeight.Medium
+       ),
+       textAlign = TextAlign.Center,
+       color = Color(0xFF687684)
+   )
+}
+//next code to written from here in continuation
+
+

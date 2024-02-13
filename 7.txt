@@ -1,0 +1,23 @@
+import androidx.compose.foundation.layout.Arrangement
+
+
+//Adding the Space in between
+Spacer(modifier = Modifier.height(4.dp))
+//Body of the Card
+Text(
+   text = stringResource(id = post.content),
+   style = TextStyle(
+       fontWeight = FontWeight.Medium
+   ),
+   fontSize = 15.sp
+)
+
+// Other tweet details can be added here
+Row (
+   horizontalArrangement = Arrangement.SpaceBetween,
+   modifier = Modifier
+       .fillMaxWidth()
+       .padding(top = 10.dp, end = 50.dp)
+){
+//next code to written from here
+}
