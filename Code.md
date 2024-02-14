@@ -88,6 +88,16 @@ data class Post(
    val likes:Int
 )
 
+class Datasource {
+    fun postList(): List<Post> {
+        return listOf<Post>(
+            Post("Tabitha Potter","mis_potter",14, R.string.post_1 ,R.drawable.post1_profile,15,25,100),
+            Post("Maximmilian","maxjacobson",3, R.string.post_2, R.drawable.post2_profile,2,1,49),
+            Post("Maximmilian","maxjacobson",3, R.string.post_1, R.drawable.post1_profile,50,25,525),
+            Post("Maximmilian","maxjacobson",3, R.string.post_2, R.drawable.post2_profile,4,15,60),
+        )
+    }
+}
 
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter", "UnusedMaterial3ScaffoldPaddingParameter")
