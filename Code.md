@@ -75,6 +75,18 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+data class Post(
+   val name: String,
+   val username: String,
+   val time: Int,
+   @StringRes val content: Int,
+   @DrawableRes val imageResourceId : Int,
+   val comment: Int,
+   val retweet:Int,
+   val likes:Int
+)
+
+
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter", "UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
