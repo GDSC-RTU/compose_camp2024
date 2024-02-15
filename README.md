@@ -35,6 +35,12 @@ To replace the `strings.xml` file in your project:
 
 3. Replace the content of your project's `MainActivity.kt` with the content from the provided file.
 
+### Nest Steps
+
+You can now run the App and get the output as : 
+![Frame 1 (5)](https://github.com/GDSC-RTU/compose_camp2024/assets/76468958/3b3145de-c935-45f2-8e0c-b8ce179a8a90)
+
+
 
 ## Built With
 
